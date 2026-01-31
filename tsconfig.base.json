@@ -5,6 +5,11 @@
     "moduleResolution": "Bundler",
     "strict": true,
     "skipLibCheck": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@packages/*": ["packages/*"]
+    }
   }
 }

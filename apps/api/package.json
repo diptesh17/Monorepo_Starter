@@ -1,4 +1,12 @@
 {
   "name": "@apps/api",
-  "private": true
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
